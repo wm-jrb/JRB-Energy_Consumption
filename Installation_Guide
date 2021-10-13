@@ -1,0 +1,11 @@
+1. Clone from git:
+    git clone https://gitlab.com/Tsesterh/ns3.git
+
+2. Install packages:
+    sudo apt-get install < packages.txt
+
+3. Configure the ns3:
+    python 2.7 ./waf configure --enable-examples --disable-tests
+
+4. Run the energy simulation:
+    python2.7 ./waf --run scratch/lr-wpan-contiki-energy ->may take a while when running the first time.
